@@ -1,0 +1,58 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+ }
+ main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ form {
+    width: 400px;
+ }
+
+ .form-group {
+    margin-bottom: 20px;
+ }
+
+ label {
+    display: block;
+    margin-bottom: 5px;
+ }
+
+ input[type="text"],
+ input[type="number"],
+ input[type="password"],
+ textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: #1a1a1a;
+    color: #fff;
+    margin-bottom: 8px;
+ }
+ .buttons {
+    text-align: center;
+ }
+ .btn {
+    padding: 10px 20px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+ }
+
+ .btn-back {
+    margin-right: 10px;
+ }
+
+ .btn:hover {
+    background-color: #0052a3;
+ }
+ .rej-error{
+   color: red;
+   margin-bottom: 5px;
+}

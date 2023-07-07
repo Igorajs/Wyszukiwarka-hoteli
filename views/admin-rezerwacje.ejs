@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/admin-list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+        <title>Admin - Rezerwacje</title>
+    </head>
+    <body>
+        <%- include('partials/header-admin') -%>
+        <main>
+            <div class="add">
+                <h2>Rezerwacje</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lp</th>
+                        <th>Użytkownik</th>
+                        <th>Nazwa</th>
+                        <th>Zdjęcie</th>
+                        <th>Dni</th>
+                        <th>Ilość osób</th>
+                        <th>Cena</th>
+                        <th>Czas</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% booking.forEach((e,index) =>{ %>
+                    <tr>
+                        <td><%=index+1%></td>
+                        <td><%=e.user%></td>
+                        <td><%=e.nameH%></td>
+                        <td><img src="<%=e.mainImg%>" alt="Hotel"></td>
+                        <td><%=e.days%></td>
+                        <td><%=e.count%></td>
+                        <td><%=e.price%></td>
+                        <td><%=e.time%></td>
+                        <td>
+                            <a href="/admin/rezerwacje/<%=e._id.valueOf()%>/usun" class="btn-delete">Usuń</a>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

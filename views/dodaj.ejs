@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <style>
+        input{
+            width: 300px;
+            height: 30px;
+            margin-top: 10px;
+        }
+        label{
+            font-size: 20px;
+        }
+        textarea{
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST">
+        <label for="name">Nazwa</label><br>
+        <input type="text" name="name" placeholder="Nazwa hotelu"><br>
+        <label for="place">Miejscowość</label><br>
+        <input type="text" name="place" placeholder="Nazwa miejscowości"><br>
+        <label for="price">Cena</label><br>
+        <input type="number" name="price" placeholder="Cena hotelu"><br>
+        <label for="desc">Opis hotelu</label><br>
+        <textarea name="desc" cols="50" rows="10"></textarea><br>
+        <label for="map">Miejsce na link do mapy</label><br>
+        <input type="text" name="map" placeholder="Miejsce hotelu na mapie"><br>
+        <label for="faci">Najlepsze udogodnienia</label><br>
+        <textarea name="faci" cols="50" rows="10"></textarea><br>
+        <label for="rate">Ocena</label><br>
+        <input type="number" name="rate" placeholder="Ocena hotelu"><br>
+        <label for="mainImg">Glowna grafika</label><br>
+        <input type="text" name="mainImg" placeholder="Glowna grafika hotelu"><br>
+        <label for="subImg">Male grafiki</label><br>
+        <input type="text" name="subImg" placeholder="Link 1"><br>
+        <input type="text" name="subImg" placeholder="Link 2"><br>
+        <input type="text" name="subImg" placeholder="Link 3"><br>
+        <input type="text" name="subImg" placeholder="Link 4"><br>
+        <input type="text" name="subImg" placeholder="Link 5"><br>
+        <label for="booking">Maksymalny czas rezerwacji</label><br>
+        <input type="number" name="booking" placeholder="Maksymalny czas rezerwacji w hotelu"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>

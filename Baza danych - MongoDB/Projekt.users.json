@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "648bcaa3b602d3cf304f990c"
+  },
+  "login": "igorajs",
+  "password": "$2b$10$GYTosvfqm74eiUYHqkVQfuxS0wWW3zyKsEbS.1iSlvFf3r2aJjdOm",
+  "name": "Igor",
+  "lastname": "Łysio",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c66c14efb790d4d2ad057"
+  },
+  "login": "adim",
+  "password": "$2b$10$wVNOIAGHR3WfLIt5YnUH3uRZtx0YRvYLZSkZTyPv6Bdr6iUPv1jPu",
+  "name": "adam",
+  "lastname": "kowalczyk",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6012f9409c8c513451a"
+  },
+  "login": "admin",
+  "password": "$2b$10$rk.lm7QTelHvRxbIiV5hae1UoOBhnTSqi2LX61eBlT4Uo.G6VezJi",
+  "name": "Admi",
+  "lastname": "Nistrator",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6a12f9409c8c5134542"
+  },
+  "login": "test",
+  "password": "$2b$10$BKAGKHAEx9FuQS29XomZLebqL86Yl9QNVTZO0lr/fSBhcu4sYrJ3m",
+  "name": "Jan",
+  "lastname": "Kowalski",
+  "rights": 1,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd8322f9409c8c5134567"
+  },
+  "login": "mariusz",
+  "password": "$2b$10$ToPC6Q5gTfstJuWuqATKd.3BnuEtgPNQfzogPLxKw4l9Zjxg2VbZ2",
+  "name": "Mariusz",
+  "lastname": "Perzyński",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd8572f9409c8c513456a"
+  },
+  "login": "adrian",
+  "password": "$2b$10$cZimQSZo2IgM2KbhARe7KeixraVNudWzZl5CzPDEUA0gX/QPtBhhi",
+  "name": "Adrian",
+  "lastname": "Oleksy",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd8752f9409c8c513456d"
+  },
+  "login": "pawel",
+  "password": "$2b$10$dQnQuWgWCT3YMjd98MxK6u917AIywxSZ7YHKEIUNVpHi2ZsVEHmrm",
+  "name": "Paweł",
+  "lastname": "Kownacki",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd8b52f9409c8c5134570"
+  },
+  "login": "jakub",
+  "password": "$2b$10$oRVDMvW65RXzUnDLWG3IWO4Jdjqo8kH0RIfYR6vdvAB4fCiGypHWi",
+  "name": "Jakub",
+  "lastname": "Krzak",
+  "rights": 2,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd8dc2f9409c8c5134575"
+  },
+  "login": "random guy",
+  "password": "$2b$10$zSNT1FSfDEOTbV2.9pMEN.iVQ04F4yzhLehS04AvtK/l7LqnW0nCO",
+  "name": "Lorem",
+  "lastname": "Ipsum",
+  "rights": 1,
+  "__v": 0
+}]

@@ -1,0 +1,80 @@
+[{
+  "_id": {
+    "$oid": "648cf04265cffc51ce6c063b"
+  },
+  "nameH": "Wola Luxury Stay",
+  "slug": "wola-luxury-stay",
+  "price": 2718,
+  "count": 3,
+  "days": 3,
+  "time": "2023-06-17 1:29:6",
+  "user": "adim",
+  "nameI": "adam",
+  "lastname": "kowalczyk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf05965cffc51ce6c0650"
+  },
+  "nameH": "Novotel Wrocław Centrum",
+  "slug": "novotel-wrocław-centrum",
+  "price": 2632,
+  "count": 2,
+  "days": 4,
+  "time": "2023-06-17 1:29:29",
+  "user": "adim",
+  "nameI": "adam",
+  "lastname": "kowalczyk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf06365cffc51ce6c065e"
+  },
+  "nameH": "Royal Gdansk",
+  "slug": "royal-gdansk",
+  "price": 1203,
+  "count": 1,
+  "days": 3,
+  "time": "2023-06-17 1:29:39",
+  "user": "adim",
+  "nameI": "adam",
+  "lastname": "kowalczyk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/392213316.jpg?k=3f00ebb578aad82d42c7fe6bf4bae9ecf06780ed50a894518c6091b68ba246ef&o=&hp=1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf06f65cffc51ce6c066c"
+  },
+  "nameH": "Hotel Kazimierz II",
+  "slug": "hotel-kazimierz-ii",
+  "price": 4188,
+  "count": 1,
+  "days": 12,
+  "time": "2023-06-17 1:29:51",
+  "user": "adim",
+  "nameI": "adam",
+  "lastname": "kowalczyk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333270646.jpg?k=8501e77ae43cdb3479dcf1f6ffeec78e103250d14048b958387cc57f7053c776&o=&hp=1",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6532f9409c8c5134537"
+  },
+  "nameH": "Hotel Gromada Poznań",
+  "slug": "hotel-gromada-poznań",
+  "price": 550,
+  "count": 2,
+  "days": 1,
+  "time": "2023-06-17 17:50:43",
+  "user": "admin",
+  "nameI": "Admi",
+  "lastname": "Nistrator",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "__v": 0
+}]

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rejestracja</title>
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+        <link rel="stylesheet" type="text/css" href="/css/rejestracja.css" />
+    </head>
+    <body>
+        <%- include('partials/navbar') -%>
+        <main>
+            <div class="register-container">
+                <h2>Rejestracja</h2>
+                <form method="POST">
+                    <input type="text" placeholder="Login" name="login" value="<%= form.login %>">
+                    <% if (errors?.login){ %>
+                    <div class="rej-error"><%= errors.login.message %></div>
+                    <% } %>
+                    <input type="text" placeholder="Imię" name="name"  value="<%= form.name %>">
+                    <% if (errors?.name){ %>
+                    <div class="rej-error"><%= errors.name.message %></div>
+                    <% } %>
+                    <input type="text" placeholder="Nazwisko" name="lastname"  value="<%= form.lastname %>">
+                    <% if (errors?.lastname){ %>
+                    <div class="rej-error"><%= errors.lastname.message %></div>
+                    <% } %>
+                    <input type="password" placeholder="Hasło" name="password">
+                    <% if (errors?.password){ %>
+                    <div class="rej-error"><%= errors.password.message %></div>
+                    <% } %>
+                    <input type="password" placeholder="Powtórz hasło" name="reppassword">
+                    <% if (errors?.password){ %>
+                    <div class="rej-error"><%= errors.password.message %></div>
+                    <% } %>
+                    <button type="submit">Zarejestruj</button>
+                </form>
+            </div>
+        </main>
+    </body>
+    <script>
+    </script>
+</html>

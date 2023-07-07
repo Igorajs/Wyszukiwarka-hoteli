@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><%= hotel.name %></title>
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+        <link rel="stylesheet" type="text/css" href="/css/wpis.css" />
+    </head>
+    <body>
+        <%- include('partials/navbar') -%>
+        <br>
+        <div class="hotel-entry">
+            <div class="hotel-image">
+                <img style="width: 800px; height: 400px" src="<%= hotel.mainImg%>">
+                <div class="rating">
+                    <% let stars = '';
+                    for (let i = 0; i < 5; i++) {
+                        if (i < hotel.rate) {
+                            stars += '★';
+                        } else {
+                            stars += '☆';
+                        }
+                    } -%><%= stars %>
+                </div>
+            </div>
+            <div class="gallery">
+                <% const h = hotel.miniImg; h.forEach(e =>{ %>
+                <div class="thumbnail"><img style="width: 150px; height: 100px" src="<%= e %>"></div>
+                <% }); %>
+            </div>
+            <hr>
+            <div class="hotel-description">
+                <div class="hotel-location">
+                    <h2><%= hotel.name %></h2>
+                    <h3><%= hotel.place %></h3>
+                </div>
+                <hr>
+                <p><%= hotel.desc %></p>
+                <h2>Najlepsze udogodnienia:</h2>
+                <ul>
+                    <% hotel.faci.forEach(e =>{ const str = e;
+                    const d = e.charAt(0).toUpperCase() + e.slice(1);%>
+                        <li><span class="span-li"><%= d %></span></li>
+                    <% }); %>
+                </ul>
+            </div>
+            <hr>
+            <div class="hotel-l">
+                <div class="hotel-price">
+                    Cena: zł <span id="cost"><%= hotel.price %></span> za noc.
+                </div>
+                <div class="hotel-price">
+                   
+                </div>
+            </div>
+            <hr>
+            <div class="booking-cont">
+                    <div class="booking-info"><h2>Zarezerwuj teraz!</h2></div>
+                    <% if(user){ %>
+                    <form id="booking-form" method="POST" action="/hotel/<%=hotel.slug%>/rezerwuj">
+                        <div class="booking-div">
+                            <label for="count">Ilość ludzi:</label>
+                            <input type="number" id="count" name="count" min="1" max="4" placeholder="Ilość osób">
+                        </div>
+                        <div class="booking-div">
+                            <label for="days">Ilość dni</label>
+                            <input type="number" id="days" name="days" min="1" max="<%= hotel.booking %>" placeholder="Ilość dni">
+                        </div>
+                        <div class="booking-div">
+                            <div>Wynik:</div>
+                            <div id="booking-result"></div>
+                        </div>
+                        <div class="booking-div">
+                            <input type="hidden" name="price" value="<%= hotel.price%>">
+                            <input type="hidden" name="slug" value="<%= hotel.slug%>">
+                            <input type="hidden" name="name" value="<%= hotel.name%>">
+                            <input type="hidden" name="mainImg" value="<%= hotel.mainImg%>">
+                            <button type="submit">Zarezerwuj teraz!</button>
+                        </div>
+                    </form>
+                    <div class="booking-error"><%=typeof query.errorBooking === 'undefined' ? '':'Wystąpił błąd!'%></div>
+                    <%}else{%>
+                    <h4>Żeby dokonać rezerwacji najpierw musisz się zalogować!</h4>
+                    <%}%>
+            </div>
+            <hr>
+            <div style="width: 100%; height: 400px;">
+                <iframe src="<%= hotel.map %>" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+            </div>
+            <hr>
+            <h3>Komentarze:</h3>
+            <%if(com){com.forEach(e =>{ %>
+            <div id="comment-section">
+                <div class="comment-list">
+                    <div class="comment">
+                        <div class="name"><%=e.name%> <%=e.lastname%></div>
+                        <div class="date"><%=e.time%></div>
+                        <div class="content"><%=e.comment%></div>
+                    </div>
+                </div>
+            </div>
+            <%});}else{%>
+                <div id="comment-section">
+                    Hotel nie ma jeszcze żadnych komentarzy.
+                </div>
+            <%}%>
+
+            <div class="comment-section">
+                <% if(user){ %>
+                <h2>Dodaj komentarz</h2>
+                <form method="post" action="/hotel/<%=hotel.slug%>/dodaj-komentarz">
+                    <div class="form-group">
+                        <input type="hidden" id="slug" name="slug" value="<%= hotel.slug %>">
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Komentarz:</label>
+                        <textarea id="comment" name="comment" rows="8" placeholder="Komentarz musi zawierać minimum 10 znaków" required></textarea>
+                    </div>
+                    <div class="comment-error">
+                        <%=typeof query.errorComent === 'undefined' ? '':'Wystąpił błąd!'%>
+                    </div>
+                    <button type="submit">Dodaj</button>
+                </form>
+                <%}else{%>
+                    <h2>Aby dodać komentarz musisz być zalogowany.</h2>  
+                <% } %>
+            </div>
+        </div>
+
+        <script>
+            const count = document.getElementById("count");
+            const days = document.getElementById("days");
+            const cost = document.getElementById("cost");
+            const v = document.getElementById("booking-result");
+            count.addEventListener("change", kalk);
+            days.addEventListener("change", kalk);
+            
+            function kalk(){
+                const result = count.value*days.value*cost.innerText;
+                v.innerHTML = result + " zł";
+            }
+            
+        </script>
+    </body>
+</html>

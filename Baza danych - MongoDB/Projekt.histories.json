@@ -1,0 +1,1512 @@
+[{
+  "_id": {
+    "$oid": "648cbeaa9961095e66617573"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 21:57:30",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cbf289961095e66617580"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-16 21:59:36",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cbf2a9961095e66617586"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-16 21:59:38",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc66aef03e5251e73c2a9"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-16 22:30:34",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc68bef03e5251e73c2b1"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-16 22:31:7",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc84aef03e5251e73c2bc"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 22:38:34",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc84def03e5251e73c2c3"
+  },
+  "slug": "orla-residence",
+  "time": "2023-06-16 22:38:37",
+  "user": "adim",
+  "name": "Orla Residence",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/162587419.jpg?k=5e23747c50b910a1db468c4c4542b49ae5cf1737ccea95a8b651b6e525392eea&o=&hp=1",
+  "price": 1317,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc84fef03e5251e73c2c9"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-16 22:38:39",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc851ef03e5251e73c2cf"
+  },
+  "slug": "hotel-caro",
+  "time": "2023-06-16 22:38:41",
+  "user": "adim",
+  "name": "Hotel CARO",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465316676.jpg?k=9639f398cee1cfcfe65be47c5d8a885ed07f79ac66e0a7261ff97d519716cb42&o=&hp=1",
+  "price": 220,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc853ef03e5251e73c2d5"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-16 22:38:43",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc856ef03e5251e73c2db"
+  },
+  "slug": "hotel-kazimierz-ii",
+  "time": "2023-06-16 22:38:46",
+  "user": "adim",
+  "name": "Hotel Kazimierz II",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333270646.jpg?k=8501e77ae43cdb3479dcf1f6ffeec78e103250d14048b958387cc57f7053c776&o=&hp=1",
+  "price": 349,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc861ef03e5251e73c2e1"
+  },
+  "slug": "absynt-hostel-wrocław",
+  "time": "2023-06-16 22:38:57",
+  "user": "adim",
+  "name": "Absynt Hostel Wrocław",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/247413772.jpg?k=e331a4841f69e67208abd66a6e5d9d3d11ea5d8df8bf1be938e7751934d5c5e5&o=&hp=1",
+  "price": 79,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc863ef03e5251e73c2e7"
+  },
+  "slug": "royal-gdansk",
+  "time": "2023-06-16 22:38:59",
+  "user": "adim",
+  "name": "Royal Gdansk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/392213316.jpg?k=3f00ebb578aad82d42c7fe6bf4bae9ecf06780ed50a894518c6091b68ba246ef&o=&hp=1",
+  "price": 401,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc868ef03e5251e73c2ed"
+  },
+  "slug": "hotel-kazimierz-ii",
+  "time": "2023-06-16 22:39:4",
+  "user": "adim",
+  "name": "Hotel Kazimierz II",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333270646.jpg?k=8501e77ae43cdb3479dcf1f6ffeec78e103250d14048b958387cc57f7053c776&o=&hp=1",
+  "price": 349,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc86cef03e5251e73c2f3"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-16 22:39:8",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc86fef03e5251e73c2f9"
+  },
+  "slug": "hotel-caro",
+  "time": "2023-06-16 22:39:11",
+  "user": "adim",
+  "name": "Hotel CARO",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465316676.jpg?k=9639f398cee1cfcfe65be47c5d8a885ed07f79ac66e0a7261ff97d519716cb42&o=&hp=1",
+  "price": 220,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc870ef03e5251e73c2ff"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-16 22:39:12",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cc872ef03e5251e73c305"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-16 22:39:14",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cca6a5f64b1ca34e73f30"
+  },
+  "slug": "royal-gdansk",
+  "time": "2023-06-16 22:47:38",
+  "user": "adim",
+  "name": "Royal Gdansk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/392213316.jpg?k=3f00ebb578aad82d42c7fe6bf4bae9ecf06780ed50a894518c6091b68ba246ef&o=&hp=1",
+  "price": 401,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ccedd2b652be7aa83b35b"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:6:37",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ccf412b652be7aa83b361"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:8:17",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ccf952b652be7aa83b367"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:9:41",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd0222b652be7aa83b36d"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:12:2",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd06c2b652be7aa83b373"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:13:16",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd0a92b652be7aa83b379"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:14:17",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd11b2b652be7aa83b37f"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:16:11",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd13c2b652be7aa83b385"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:16:44",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd1492b652be7aa83b38b"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:16:57",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd1b02b652be7aa83b391"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:18:40",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd1de2b652be7aa83b397"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:19:26",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd2912b652be7aa83b39d"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:22:25",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd3222b652be7aa83b3a3"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:24:50",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd3322b652be7aa83b3a9"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:25:6",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd33b2b652be7aa83b3af"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:25:15",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd35b2b652be7aa83b3b5"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:25:47",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd3c42b652be7aa83b3bb"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:27:32",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd3d82b652be7aa83b3c1"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:27:52",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd42e2b652be7aa83b3c7"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:29:18",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd4712b652be7aa83b3cd"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:30:25",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd7a52b652be7aa83b3d3"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:44:5",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd7bf2b652be7aa83b3d9"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:44:31",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd7f72b652be7aa83b3df"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:45:27",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd8202b652be7aa83b3e5"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:46:8",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd9562b652be7aa83b3eb"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:51:18",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cd97f2b652be7aa83b3f1"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:51:59",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cda1a2b652be7aa83b3f8"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:54:34",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cda7c2b652be7aa83b3fe"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:56:12",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdaca2b652be7aa83b404"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:57:30",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdaeb2b652be7aa83b40a"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:58:3",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdb2d2b652be7aa83b410"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:59:9",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdb3d2b652be7aa83b416"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:59:25",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdb5e2b652be7aa83b41c"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 23:59:58",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cdb942b652be7aa83b422"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 0:0:52",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce1b848fb43b6ac209835"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 0:27:4",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce22f48fb43b6ac20983b"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 0:29:3",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce3d73352a0f604c38e3f"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 0:36:7",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce3e23352a0f604c38e46"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 0:36:18",
+  "user": "adim",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce59a9006d6ec041515c6"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 0:43:38",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce5a19006d6ec041515cd"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 0:43:45",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce5ec9006d6ec041515d4"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 0:45:0",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce6049006d6ec041515db"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 0:45:24",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce978fa7cc31e9802340f"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:0:8",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce97bfa7cc31e98023416"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:0:11",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce9acfa7cc31e9802341d"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:1:0",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ce9b1fa7cc31e98023424"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:1:5",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cea0349c83b97c9e81a95"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-17 1:2:27",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cea0749c83b97c9e81a9c"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-17 1:2:31",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cea3849c83b97c9e81aa3"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-17 1:3:20",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cea5be39bfdeb780dc4d7"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 1:3:55",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cea5ee39bfdeb780dc4de"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 1:3:58",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cebe4bb1290e319fab599"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:10:28",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cebfabb1290e319fab59f"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:10:50",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cec16bb1290e319fab5a5"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:11:18",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cec44bb1290e319fab5ab"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:12:4",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cec49bb1290e319fab5b1"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:12:9",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cedbdbb1290e319fab5b7"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:18:21",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cede5bb1290e319fab5bd"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:19:1",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cedf2bb1290e319fab5c3"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:19:14",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cedf6bb1290e319fab5c9"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:19:18",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee46bb1290e319fab5cf"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:20:38",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee53bb1290e319fab5d5"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:20:51",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee61bb1290e319fab5db"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:21:5",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee6fbb1290e319fab5e1"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:21:19",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee8dbb1290e319fab5e7"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:21:49",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cee91bb1290e319fab5ed"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 1:21:53",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cef5b69138b1c9c033aa1"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:25:15",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cef6669138b1c9c033aa7"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:25:26",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cefda65cffc51ce6c060b"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:27:22",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cefe065cffc51ce6c0611"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:27:28",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ceffa65cffc51ce6c0617"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:27:54",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf00265cffc51ce6c061d"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:28:2",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf01365cffc51ce6c0623"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:28:19",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf02665cffc51ce6c0629"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:28:38",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf03565cffc51ce6c0630"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 1:28:53",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf03865cffc51ce6c0637"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 1:28:56",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf04265cffc51ce6c063f"
+  },
+  "slug": "wola-luxury-stay",
+  "time": "2023-06-17 1:29:6",
+  "user": "adim",
+  "name": "Wola Luxury Stay",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/379142483.jpg?k=0b357946fb0a691fb80b4ff167978b4fc63f4c2f5c2b487020d17692106230e5&o=&hp=1",
+  "price": 302,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf05265cffc51ce6c0646"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 1:29:22",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf05665cffc51ce6c064c"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 1:29:26",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf05965cffc51ce6c0654"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 1:29:29",
+  "user": "adim",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf05e65cffc51ce6c065a"
+  },
+  "slug": "royal-gdansk",
+  "time": "2023-06-17 1:29:34",
+  "user": "adim",
+  "name": "Royal Gdansk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/392213316.jpg?k=3f00ebb578aad82d42c7fe6bf4bae9ecf06780ed50a894518c6091b68ba246ef&o=&hp=1",
+  "price": 401,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf06365cffc51ce6c0662"
+  },
+  "slug": "royal-gdansk",
+  "time": "2023-06-17 1:29:39",
+  "user": "adim",
+  "name": "Royal Gdansk",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/392213316.jpg?k=3f00ebb578aad82d42c7fe6bf4bae9ecf06780ed50a894518c6091b68ba246ef&o=&hp=1",
+  "price": 401,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf06765cffc51ce6c0668"
+  },
+  "slug": "hotel-kazimierz-ii",
+  "time": "2023-06-17 1:29:43",
+  "user": "adim",
+  "name": "Hotel Kazimierz II",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333270646.jpg?k=8501e77ae43cdb3479dcf1f6ffeec78e103250d14048b958387cc57f7053c776&o=&hp=1",
+  "price": 349,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf06f65cffc51ce6c0670"
+  },
+  "slug": "hotel-kazimierz-ii",
+  "time": "2023-06-17 1:29:51",
+  "user": "adim",
+  "name": "Hotel Kazimierz II",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/333270646.jpg?k=8501e77ae43cdb3479dcf1f6ffeec78e103250d14048b958387cc57f7053c776&o=&hp=1",
+  "price": 349,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf07a65cffc51ce6c0677"
+  },
+  "slug": "hotel-colibra",
+  "time": "2023-06-17 1:30:2",
+  "user": "adim",
+  "name": "Hotel Colibra",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134493082.jpg?k=5e3d4eefdba153e15ffbc76486ea8f1459ed974e014dfb971928ebf752a6cfba&o=&hp=1",
+  "price": 305,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf08f65cffc51ce6c067f"
+  },
+  "slug": "hotel-colibra",
+  "time": "2023-06-17 1:30:23",
+  "user": "adim",
+  "name": "Hotel Colibra",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134493082.jpg?k=5e3d4eefdba153e15ffbc76486ea8f1459ed974e014dfb971928ebf752a6cfba&o=&hp=1",
+  "price": 305,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cf710dc726186042947d9"
+  },
+  "slug": "hotel-colibra",
+  "time": "2023-06-17 1:58:8",
+  "user": "adim",
+  "name": "Hotel Colibra",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/134493082.jpg?k=5e3d4eefdba153e15ffbc76486ea8f1459ed974e014dfb971928ebf752a6cfba&o=&hp=1",
+  "price": 305,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cfc9fdc726186042947f3"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 2:21:51",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648d59cadc7261860429481d"
+  },
+  "slug": "hotel-caro",
+  "time": "2023-06-17 8:59:22",
+  "user": "adim",
+  "name": "Hotel CARO",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/465316676.jpg?k=9639f398cee1cfcfe65be47c5d8a885ed07f79ac66e0a7261ff97d519716cb42&o=&hp=1",
+  "price": 220,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648d74cbe62e5e2077a5cc32"
+  },
+  "slug": "economic-mandala-apartment",
+  "time": "2023-06-17 10:54:35",
+  "user": "adim",
+  "name": "Economic Mandala Apartment",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/451815535.jpg?k=a75b363c402a61ab19440cf1f9120a01df8767eb6436ebb88204e9d0e8cceeee&o=&hp=1",
+  "price": 100,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6432f9409c8c5134529"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 17:50:27",
+  "user": "admin",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6482f9409c8c513452d"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 17:50:32",
+  "user": "admin",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd64b2f9409c8c5134531"
+  },
+  "slug": "sheraton-grand-krakow",
+  "time": "2023-06-17 17:50:35",
+  "user": "admin",
+  "name": "Sheraton Grand Krakow",
+  "mainImg": "http://sheraton-grand-krakow-hotel.hotel-dir.com/data/Pictures/940x450/12609/1260922/1260922210/krakow-sheraton-grand-hotel-picture-2.JPEG",
+  "price": 676,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd64d2f9409c8c5134535"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 17:50:37",
+  "user": "admin",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6532f9409c8c513453b"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 17:50:43",
+  "user": "admin",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6b02f9409c8c513454a"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 17:52:16",
+  "user": "test",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6b22f9409c8c513454e"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 17:52:18",
+  "user": "test",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6c62f9409c8c5134554"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 17:52:38",
+  "user": "test",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd76e2f9409c8c5134558"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 17:55:26",
+  "user": "test",
+  "name": "Novotel Wrocław Centrum",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/292858316.jpg?k=f9689cb940b7db9b8844607e971737c7e031e758c4ff6cede30afbaacb242055&o=&hp=1",
+  "price": 329,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ddafc2f9409c8c5134590"
+  },
+  "slug": "hotel-gromada-poznań",
+  "time": "2023-06-17 18:10:36",
+  "user": "admin",
+  "name": "Hotel Gromada Poznań",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/443957965.jpg?k=3b0b6b0b35d4c6b06777748c08637e3e0f65c46b7bf21a43712abfd5ff50bb90&o=&hp=1",
+  "price": 275,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648ddc4c2f9409c8c513459b"
+  },
+  "slug": "grape-hotel",
+  "time": "2023-06-17 18:16:12",
+  "user": "admin",
+  "name": "Grape Hotel",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/167107340.jpg?k=fff5542ed74485ae35ad46ac9271890c35182cdd4a00ae7e52194253673ecdaf&o=&hp=1",
+  "price": 509,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de7bb2f9409c8c51345a9"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 19:4:59",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de7e92f9409c8c51345b0"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 19:5:45",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de8452f9409c8c51345b5"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 19:7:17",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de9102f9409c8c51345be"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 19:10:40",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de9242f9409c8c51345c4"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 19:11:0",
+  "user": "adim",
+  "name": "Place4Us",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/97662617.jpg?k=78bc1ab63836b583ebe0f9a63dfc3bd0917c9e6e9a81e07cf7e2d8b0b2c71cfd&o=&hp=1",
+  "price": 119,
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de9382f9409c8c51345ca"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-17 19:11:20",
+  "user": "adim",
+  "name": "Focus Hotel Premium Warszawa",
+  "mainImg": "https://cf.bstatic.com/xdata/images/hotel/max1024x768/339008917.jpg?k=cf204230bfee436cc523d115686834fd8be0de655b0dfb003ce9f140665820c2&o=&hp=1",
+  "price": 291,
+  "__v": 0
+}]

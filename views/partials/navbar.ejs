@@ -1,0 +1,28 @@
+<header>
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="/"><img src="https://cdn.discordapp.com/attachments/1117110325725102201/1119285179463249990/Logo_png.png" alt="Logo"></a>
+        </div>
+        <div class="navbar-menu">
+            <ul>
+                <a href="/"><li>Lista hoteli</li></a>
+            </ul>
+        </div>
+        <div class="navbar-login">
+            <%if(!user){%>
+            <ul>
+                <a href="/logowanie"><li>Zaloguj</li></a>
+                <a href="/rejestracja"><li>Rejestracja</li></a>
+            </ul>
+            <% }else{%>
+            <ul>
+                <%if(user.rights === 2){%>
+                <a href="/admin"><li>Panel Admina</li></a>
+                <% }%>
+                <a href="/wyloguj"><li>Wyloguj</li></a>
+                <a href="/profil"><li><%= user.login.charAt(0).toUpperCase() + user.login.slice(1) %></li></a>
+            </ul>
+            <%}%>
+        </div>
+    </div>
+</header>

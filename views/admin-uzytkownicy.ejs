@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/admin-list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+        <title>Admin - Użytkownicy</title>
+    </head>
+    <body>
+        <%- include('partials/header-admin') -%>
+        <main>
+            <div class="add">
+                <h2>Użytkownicy</h2>
+                <a href="/admin/uzytkownicy/dodaj" class="btn-add">Dodaj</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lp</th>
+                        <th>Login</th>
+                        <th>Imię</th>
+                        <th>Nazwisko</th>
+                        <th>Hasło</th>
+                        <th>Uprawnienia</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% users.forEach((e,index) =>{ %>
+                    <tr>
+                        <td><%=index+1%></td>
+                        <td><%=e.login%></td>
+                        <td><%=e.name%></td>
+                        <td><%=e.lastname%></td>
+                        <td><%=e.password.slice(0, 25)%>...</td>
+                        <td><%=e.rights%></td>
+                        <td>
+                            <a href="/admin/uzytkownicy/<%=e.login%>/usun" class="btn-delete">Usuń</a>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

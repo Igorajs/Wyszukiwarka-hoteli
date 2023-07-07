@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="/css/admin-edytuj-hotel.css" />
+      <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+      <title>Edytuj hotel</title>
+   </head>
+   <body>
+      <%- include('partials/header-admin') -%>
+      <main>
+         <form method="POST" action="/admin/hotele/<%= ans.slug%>/edytuj">
+            <h2>Edytuj informacje o hotelu:</h2>
+               <div class="error">
+                  <ul>
+                  <% if (typeof query !== 'undefined'){ %>
+                     <% Object.values(query).forEach(e => {%>
+                        <%if(!(e == 11000)){%>
+                        <li><%=e %></li>
+                     <% }}); %>
+                     <% if (query.duplicate != null){ %>
+                        <li>Nazwa: "<%= ans.name %>" już istnieje!</li>
+                     <%}%>
+                  <%}%>
+                  </ul>
+               </div>
+            
+            <div class="form-group">
+               <label for="name">Nazwa:</label>
+               <input type="text" id="name" name="name" placeholder="Nazwa hotelu" value='<%= ans.name %>' >
+            </div>
+            <div class="form-group">
+               <label for="place">Miejscowość:</label>
+               <input type="text" id="place" name="place" placeholder="Nazwa miejscowości" value='<%= ans.place %>' >
+            </div>
+            <div class="form-group">
+               <label for="desc">Opis:</label>
+               <textarea id="desc" name="desc" rows="4" placeholder="Opis"  ><%= ans?.desc %></textarea>
+            </div>
+            <div class="form-group">
+               <label for="price">Cena:</label>
+               <input type="number" id="price" name="price" placeholder="Cena hotelu" value='<%= ans?.price %>'>
+            </div>
+            <div class="form-group">
+               <label for="faci">Najlepsze udogodnienia:</label><br>
+               <textarea name="faci" cols="50" rows="10" placeholder="Udogodnienia oddziel przecinkiem"><%= ans?.faci %></textarea><br>
+            </div>
+            <div class="form-group">
+               <label for="rate">Ocena</label>
+               <input type="number" id="rate" name="rate" placeholder="Ocena" value='<%= ans?.rate %>' >
+            </div>
+            <div class="form-group">
+               <label for="booking">Max długość rezerwacji:</label>
+               <input type="number" id="booking" name="booking" placeholder="Podaj ilość dni" value='<%= ans?.booking %>'>
+            </div>
+            <div class="form-group">
+               <label for="map">Link do mapy</label>
+               <input type="text" id="map" name="map" placeholder="Podaj link do mapy" value='<%= ans?.map %>'>
+            </div>
+            <div class="form-group">
+               <label for="mainImg">Zdjęcie główne</label>
+               <input type="text" id="mainImg" name="mainImg" placeholder="Podaj link do głównej grafiki" value='<%= ans?.mainImg %>' >
+            </div>
+            <div class="form-group">
+               <label>Zdjęcia do galerii:</label>
+               <input type="text" name="subImg" placeholder="Link do sub grafiki 1" value='<%= ans?.miniImg[0] %>'>
+               <input type="text" name="subImg" placeholder="Link do sub grafiki 2" value='<%= ans?.miniImg[1] %>'>
+               <input type="text" name="subImg" placeholder="Link do sub grafiki 3" value='<%= ans?.miniImg[2] %>'>
+               <input type="text" name="subImg" placeholder="Link do sub grafiki 4" value='<%= ans?.miniImg[3] %>'>
+               <input type="text" name="subImg" placeholder="Link do sub grafiki 5" value='<%= ans?.miniImg[4] %>'>
+            </div>
+            <div class="buttons">
+               <button type="button" class="btn btn-back">Cofnij</button>
+               <button type="submit" class="btn">Zapisz</button>
+            </div>
+         </form>
+      </main>
+   </body>
+</html>

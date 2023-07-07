@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Profil - Historia</title>
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+        <link rel="stylesheet" type="text/css" href="/css/profil-historia.css" />
+    </head>
+    <body>
+        <%- include('partials/navbar') -%>
+        <main>
+            <div class="profile-container">
+                <h2>Profil użytkownika: <% if(typeof user !== 'undefined'){%>
+                    <%=user.login.charAt(0).toUpperCase() + user.login.slice(1); %><%}%></h2>
+                    <div class='cont-p'>
+                        <div class='p-info'>
+                            <p>Imię: <% if(typeof user !== 'undefined'){%><%= user.name %><%}%></p>
+                            <p>Nazwisko: <% if(typeof user !== 'undefined'){%><%= user.lastname %><%}%></p>
+                        </div>
+                        <div class='p-info'>
+                            <p>Uprawnienia: <% if(typeof user !== 'undefined'){%>
+                                <%= user.rights == 1 ? 'Użytkownik' : 'Administrator'%><%}%></p>
+                        </div>
+                </div>
+
+                <div class="search-history">
+                    <a href="/profil/historia"><h3 class="gray-border active">Historia wyszukiwania hoteli</h3></a>
+                    <a href="/profil/rezerwacja"><h3 class="gray-border">Twoje rezerwacje hoteli</h3></a>
+                    <hr class="gray-line">
+                    <ul>
+                        <% h.forEach(e =>{ %>
+                        <li>
+                            <img style="width: 80px;
+                                 height: 80px" src="<%= e.mainImg -%>">
+                            <div class="hotel-info">
+                                <p class="hotel-name"><%= e.name %></p>
+                                <a href="/hotel/<%= e.slug %>">Zobacz więcej</a>
+                            </div>
+                            <div class="hotel-info-right">
+                                <div><%= e.time %></div>
+                                <div><%= e.price %> zł</div>
+                            </div>
+                        </li>
+                        <% }); %>
+                    </ul>
+                </div>
+            </div>
+        </main>
+    </body>
+    <script>
+    </script>
+</html>

@@ -1,0 +1,60 @@
+[{
+  "_id": {
+    "$oid": "648cac2cd3eaf4a451fc4255"
+  },
+  "slug": "orla-residence",
+  "time": "2023-06-16 20:38:36",
+  "comment": "Najlepszy hotel w jakim byłem.",
+  "user": "adim",
+  "name": "adam",
+  "lastname": "kowalczyk",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cad20d3eaf4a451fc425c"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 20:42:40",
+  "comment": "Przykładowy komentarz",
+  "user": "adim",
+  "name": "adam",
+  "lastname": "kowalczyk",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648cb2b205dd76fabdec7df8"
+  },
+  "slug": "focus-hotel-premium-warszawa",
+  "time": "2023-06-16 21:6:26",
+  "comment": "Przykładowy komentarz",
+  "user": "adim",
+  "name": "adam",
+  "lastname": "kowalczyk",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648dd6c62f9409c8c5134550"
+  },
+  "slug": "novotel-wrocław-centrum",
+  "time": "2023-06-17 17:52:38",
+  "comment": "Bardzo fajny hotel, serdecznie polecam!",
+  "user": "test",
+  "name": "Jan",
+  "lastname": "Kowalski",
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648de9242f9409c8c51345c0"
+  },
+  "slug": "place4us",
+  "time": "2023-06-17 19:11:0",
+  "comment": "Opinia na temat hotelu",
+  "user": "adim",
+  "name": "adam",
+  "lastname": "kowalczyk",
+  "__v": 0
+}]

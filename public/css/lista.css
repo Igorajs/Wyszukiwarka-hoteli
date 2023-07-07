@@ -1,0 +1,97 @@
+body {
+    background-color: #007bff;
+    font-family: Arial, sans-serif;
+}
+button{
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.list-entry {
+    width: 1100px;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#filters label {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#filters input[type="text"],
+#filters select {
+    border: 2px solid #ccc;
+    border-radius: 2px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+#hotel-list {
+    padding-left: 5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hotel {
+    margin: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    display: flex;
+    max-height: 200px;
+}
+
+.hotel img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.hotel-info {
+    padding: 10px;
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    overflow: hidden;
+}
+.hotel-i-left{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+.desc{
+    font-size: 14px;
+}

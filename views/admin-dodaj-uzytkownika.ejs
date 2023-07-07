@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" type="text/css" href="/css/admin-dodaj-uzytkownika.css" />
+      <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+      <title>Dodaj użytkownika</title>
+   </head>
+   <body>
+      <%- include('partials/header-admin') -%>
+      <main>
+         <form method="POST">
+            <h2>Dodaj użytkownika:</h2>
+            <form method="POST">
+               <label for="login">Login:</label>
+               <input type="text" placeholder="Login" name="login" value="<%= form.login %>">
+               <% if (errors?.login){ %>
+               <div class="rej-error"><%= errors.login.message %></div>
+               <% } %>
+               <label for="name">Imię:</label>
+               <input type="text" placeholder="Imię" name="name"  value="<%= form.name %>">
+               <% if (errors?.name){ %>
+               <div class="rej-error"><%= errors.name.message %></div>
+               <% } %>
+               <label for="lastname">Nazwisko:</label>
+               <input type="text" placeholder="Nazwisko" name="lastname"  value="<%= form.lastname %>">
+               <% if (errors?.lastname){ %>
+               <div class="rej-error"><%= errors.lastname.message %></div>
+               <% } %>
+               <label for="password">Hasło:</label>
+               <input type="password" placeholder="Hasło" name="password">
+               <% if (errors?.password){ %>
+               <div class="rej-error"><%= errors.password.message %></div>
+               <% } %>
+               <label for="reppassword">Powtórz hasło:</label>
+               <input type="password" placeholder="Powtórz hasło" name="reppassword">
+               <% if (errors?.password){ %>
+               <div class="rej-error"><%= errors.password.message %></div>
+               <% } %>
+               <label for="rights">Przyznaj prawa:</label>
+               <input type="number" placeholder="Przyznaj prawa 1 - 2" name="rights" value="<%= form.rights %>">
+               <% if (errors?.rights){ %>
+               <div class="rej-error"><%= errors.rights.message %></div>
+               <% } %>
+               <div class="buttons">
+                  <a href="/admin/uzytkownicy"><button type="button" class="btn btn-back">Cofnij</button></a>
+                  <button type="submit" class="btn">Zapisz</button>
+               </div>
+           </form>
+            </div>
+         </form>
+      </main>
+   </body>
+</html>

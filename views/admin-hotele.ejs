@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/admin-list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+        <title>Admin - Hotele</title>
+    </head>
+    <body>
+        <%- include('partials/header-admin') -%>
+        <main>
+            <div class="add">
+                <h2>Hotele</h2>
+                <a href="/admin/hotele/dodaj" class="btn-add">Dodaj</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lp</th>
+                        <th>Nazwa</th>
+                        <th>Zdjęcie</th>
+                        <th>Miejsce</th>
+                        <th>Cena</th>
+                        <th>Ocena</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% hotels.forEach((e,index) =>{ %>
+                    <tr>
+                        <td><%=index+1%></td>
+                        <td><%=e.name%></td>
+                        <td><img src="<%=e.mainImg%>" alt="Hotel"></td>
+                        <td><%=e.place%></td>
+                        <td><%=e.price%></td>
+                        <td><%=e.rate%></td>
+                        <td>
+                            <a href="/admin/hotele/<%=e.slug%>/edytuj" class="btn-edit">Edytuj</a>
+                            <a href="/admin/hotele/<%=e.slug%>/usun" class="btn-delete">Usuń</a>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

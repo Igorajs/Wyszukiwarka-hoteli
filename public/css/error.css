@@ -1,0 +1,9 @@
+.hotel-entry {
+    width: 800px;
+    margin: 0 auto;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    font-size: 23px;
+}

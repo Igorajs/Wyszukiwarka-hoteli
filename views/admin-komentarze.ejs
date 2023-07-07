@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="/css/admin-list.css" />
+        <link rel="stylesheet" type="text/css" href="/css/admin-header.css" />
+        <title>Admin - Komentarze</title>
+    </head>
+    <body>
+        <%- include('partials/header-admin') -%>
+        <main>
+            <div class="add">
+                <h2>Komentarze</h2>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Lp</th>
+                        <th>Login</th>
+                        <th>Komentarz</th>
+                        <th>Slug</th>
+                        <th>Czas</th>
+                        <th>Akcje</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% comments.forEach((e,index) =>{ %>
+                    <tr>
+                        <td><%=index+1%></td>
+                        <td><%=e.user%></td>
+                        <td><%=e.comment%></td>
+                        <td><%=e.slug%></td>
+                        <td><%=e.time%></td>
+                        <td>
+                            <a href="/admin/komentarze/<%=e._id.valueOf()%>/usun" class="btn-delete">Usuń</a>
+                        </td>
+                    </tr>
+                    <% }); %>
+                </tbody>
+            </table>
+        </main>
+    </body>
+</html>

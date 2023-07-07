@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista hoteli</title>
+        <link rel="stylesheet" type="text/css" href="/css/navbar.css" />
+        <link rel="stylesheet" type="text/css" href="/css/lista.css" />
+        <title>Strona główna - Lista hoteli</title>
+    </head>
+    <body>
+        <%- include('partials/navbar') -%>
+        <br>
+        <div class="list-entry">
+            <div id="filters">
+                <label for="name-filter"> Szukaj po nazwie: </label>
+                <input type="text" id="name-filter">
+                <label for="price-filter"> Szukaj po cenie: </label>
+                <select id="price-filter">
+                    <option value="">Wszystkie</option>
+                    <option value="1">Poniżej 50zł</option>
+                    <option value="2">50zł - 100zł</option>
+                    <option value="3">100zł - 200zł</option>
+                    <option value="4">Powyżej 200zł</option>
+                </select>
+            </div>
+
+            <div id="hotel-list">
+                <% hotels.forEach(e =>{ %>
+                <a href="/hotel/<%= e.slug %>">
+                    <div class="hotel">
+                        <img style="width: 300px; height: 200px" src="<%= e.mainImg %>" alt="Hotel Img">
+                        <div class="hotel-info">
+                            <div class="dhu"></div><h2><%= e.name %></h2>
+                            <p class="desc"><%= e.desc.trim().slice(0, 150)%>...</p>
+                            <p class="price"><%= e.price %> zł</p>
+                        </div>
+                        <div class="hotel-i-left">
+                            <span>
+                                <%let stars = "";for(let i = 0; i < e.rate; i++){stars+='★';}%><%= stars %></span>
+                            <span><%= e.place %></span>
+                        </div>
+                    </div>
+                </a>
+                <% }); %>
+            <script>
+                const nameFilter = document.getElementById("name-filter");
+                const priceFilter = document.getElementById("price-filter");
+                const hotelList = document.getElementById("hotel-list");
+
+
+                nameFilter.addEventListener("input", filterHotels);
+                priceFilter.addEventListener("change", filterHotels);
+
+                function filterHotels() {
+                    const selectedPriceRange = priceFilter.value;
+
+                    const hotels = hotelList.querySelectorAll(".hotel");
+                    hotels.forEach(hotel => {
+                        const name = hotel.querySelector("h2").textContent;
+                        const price = Number(hotel.querySelector("p.price").textContent.replace(/[^0-9\.]+/g, ""));
+                        const matchesNameFilter = name.toLowerCase().includes(nameFilter.value.toLowerCase());
+                        const matchesPriceFilter = selectedPriceRange === "" || (selectedPriceRange === "1" && price < 50) || (selectedPriceRange === "2" && price >= 50 && price <= 100) || (selectedPriceRange === "3" && price >= 100 && price <= 200) || (selectedPriceRange === "4" && price > 200);
+                        if (matchesNameFilter && matchesPriceFilter) {
+                            hotel.style.display = "flex";
+                        } else {
+                            hotel.style.display = "none";
+                        }
+                    });
+                }
+            </script>
+    </body>
+</html>
